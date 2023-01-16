@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiohead</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#details">Details</a></li>
+                <li><a href="most_successful_songs.html#portfolio">Portfolio</a></li>
+                <li><a href="contact.html#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Radio<span>head</span>.</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/radio.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Radiohead.</h1>
+                <p>Radiohead are an English rock band formed in Abingdon, Oxfordshire, in 1985. The band consists of Thom Yorke (vocals, guitar, piano, keyboards); brothers Jonny Greenwood (lead guitar, keyboards, other instruments) and Colin Greenwood (bass); Ed O'Brien (guitar, backing vocals); and Philip Selway (drums, percussion). They have worked with the producer Nigel Godrich and the cover artist Stanley Donwood since 1994. Radiohead's experimental approach is credited with advancing the sound of alternative rock.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('members')">Members</p>
+                </div>
+                <div class="tab-contents active-tab" id="members">
+                    <ul>
+                        <li><span>Thom Yorke</span><br>Vocals, Guitar, Piano, Keyboards.</li>
+                        <li><span>Jonny Greenwood</span><br>Guitar, Keyboards, Ondes Martenot, Orchestral Arrangements</li>
+                        <li><span>Colin Greenwood</span><br>Bass Guitar</li>
+                        <li><span>Ed O'Brien</span><br>Guitar, Effects, Backing Vocals</li>
+                        <li><span>Philip Selway</span><br>Drums, Percussion</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------details---------------- -->
+<div id="details">
+    <div class="container">
+        <h1 class="sub-title">Details</h1>
+        <div class="details-list">
+            <div>
+                <h2>Style and Themes</h2>
+                <p>Radiohead's musical style has been described as art rock, alternative rock, electronica, experimental rock, progressive rock, Britpop, grunge, art pop and electronic rock.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Discography</h2>
+                <p>Some of the Radiohead's albums are Pablo Honey, The Bends, OK Computer, Kid A, Amnesiac,	Hail to the Thief, In Rainbows, The King of Limbs, A Moon Shaped Pool. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Awards</h2>
+                <p>Some of the Radiohead's awards are 6 Grammy awards, 4 Ivor Novello Awards, 2 Libera Awards, 1 MTV Video Music Awards.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © ulasch.</p>
+    </div>
+</div>
